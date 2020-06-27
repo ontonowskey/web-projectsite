@@ -14,5 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/sorokodin', function () {
+    return view('sorokodin');
+});
+
+Route::get('/sorokdva', function () {
+    return view('sorokdva');
+});
+
+Route::get('/soroktri', function () {
+    return view('soroktri');
+});
+
+Route::get('/sorokchetire', function () {
+    return view('sorokchetire');
+});
+
+Route::get('/sorokpyat', function () {
+    return view('sorokpyat');
 });

@@ -1,0 +1,156 @@
+body {
+	margin:0px;
+	font-family: 'Montserrat', sans-serif;
+
+	font-size: 15px;
+	line-height: 1.6;
+	color: #000000;
+	background-color: #EDEEF0;
+
+}
+
+li {
+	    float: left;
+	    position: relative;
+	    left: 450px;
+	    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+}
+
+/* Измените цвет ссылки на #111 (черный) при наведении */
+li a:hover {
+    background-color: #111;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #7F8384;
+}
+ul {
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+
+.container {
+text-align: center;
+font-size: 25px;
+}
+
+.soderjanie {
+	text-align: left;
+	margin-right: 80px;
+	margin-left: 80px;
+	font-size: 16px;
+}
+
+.soderjanie1 {
+	font-size: 18px;
+	text-align: left;
+	margin-right: 80px;
+	margin-left: 50px;
+}
+
+.podzagolovok {
+	text-align: center;
+	font-size: 50px;
+}
+
+.pictures {
+	text-align: center;
+}
+
+.img1 {
+	height: 400px;
+	width: 280px;
+	margin-left: px;
+	padding-right: px;
+}
+
+.img2 {
+	height: 400px;
+	width: 670px;
+}
+
+.img3 {
+	height: 300px;
+}
+
+.img4 {
+	height: 300px;
+	position: absolute;
+	left: 429px;
+	width: 460px;
+}
+
+.img5 {
+	height: 300px;
+	width: 460px;
+	left: 889px;
+	position: absolute;
+}
+
+.images {
+	text-align: center;
+}
+
+.img1943 {
+	height: 300px;
+}
+
+.kursk {
+	height: 300px;
+	margin-left: -20px;
+}
+
+.g1944 {
+	height: 300px;
+    float:left;
+    margin: 7px 7px 7px 0;
+}
+
+footer {
+	padding-top: 0px;
+}
+
+.text {
+	text-align: left;
+	margin-right: 80px;
+	margin-left: 100px;
+	font-size: 20px;
+}
+
+.kartinki {
+	height: 300px;
+}
+
+.kartinochki {
+	text-align: center;
+	margin-left: -1px;
+}
+
+.kartinochki1 {
+	text-align: center;
+}
+
+.kartinkie {
+	height: 300px;
+	padding: 50px;
+}
+
+.kartinkiw {
+	height: 300px;
+	margin: 50px;
+}

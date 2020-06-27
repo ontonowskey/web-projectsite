@@ -1,0 +1,186 @@
+body {
+	margin:0px;
+	font-family: 'Montserrat', sans-serif;
+
+	font-size: 15px;
+	line-height: 1.6;
+	color: #000000;
+
+	background-color: #EDEEF0;
+}
+
+li {
+	    float: left;
+	    position: relative;
+	    left: 450px;
+	    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+}
+
+/* Измените цвет ссылки на #111 (черный) при наведении */
+li a:hover {
+    background-color: #111;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #7F8384;
+}
+ul {
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+
+.container {
+text-align: center;
+font-size: 25px;
+bottom: 200px;
+position: static;
+
+}
+
+.soderjanie {
+	text-align: left;
+	margin-right: 80px;
+	margin-left: 80px;
+	font-size: 17px;
+	position: static;
+}
+
+.soderjanie1 {
+	text-align: left;
+	margin-right: 80px;
+	margin-left: 50px;
+	font-size: 18px;
+	position: static;
+}
+
+.granitsy {
+	text-align: center;
+	padding-top 20px;
+}
+
+.pic {
+	height: 400px;
+	width: 800px;
+}
+
+.podzagolovok {
+	text-align: center;
+	font-size: 50px;
+	position: static;
+}
+
+.png {
+	left: 100px;
+	margin-top: 200px;
+	width: 580px;
+	height: 400px;
+	position: absolute;
+	z-index: 1;
+}
+
+.png2 {
+	margin-top: 0px;
+	margin-bottom: 195px;
+	position: absolute;
+	z-index: 1;
+	left: 100px;
+}
+
+.png3 {
+	width: 450px;
+	height: 450px;
+	left: 800px;
+	position: absolute;
+	z-index: 1;
+}
+
+.png4 {
+	position: absolute;
+	z-index: 1;
+	left: 800px;
+	top: 1255px;
+}
+
+.sootnoshenie {
+	text-align: left;
+}
+
+.imagesss {
+	position: absolute;
+}
+
+.img1 {
+	position: absolute;
+	z-index: 1;
+	height: 300px;
+	width: 450px;
+}
+
+.img2 {
+	position: absolute;
+	z-index: 2;
+	left: 450px;
+	height: 300px;
+	width: 450px;
+}
+
+.img3 {
+	position: absolute;
+	z-index: 1;
+	left: 890px;
+	height: 300px;
+	width: 450px;
+}
+
+footer {
+
+}
+.header {
+	position: static;
+	padding-bottom: px;
+}
+
+.header1 {
+	margin-left: px;
+	position: static;
+}
+
+.header2 {
+	left: 100px;
+	position: static;
+}
+
+.header3 {
+	position: static;
+	left: 170px;
+}
+
+.header4 {
+	position: static;
+	left: 240px;
+}
+
+.header5 {
+	position: static;
+	margin-left: 310px;
+}
+
+.header6 {
+	position: static;
+	margin-left: 380px;
+}
