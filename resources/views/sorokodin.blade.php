@@ -20,7 +20,7 @@
     -->
     <div class="header">
         <ul>
-            <div class="header1"><li><a href="/">Главная</a></li></div>
+            <div class="header1"><li><a href="/index">Главная</a></li></div>
             <div class="header2"><li><a href="#">1941</a></li></div>
             <div class="header3"><li><a href="/sorokdva">1942</a></li></div>
             <div class="header4"><li><a href="/soroktri">1943</a></li></div>

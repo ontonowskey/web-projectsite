@@ -13,26 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/index', action: "ApiController@indexAction");
 
-Route::get('/sorokodin', function () {
-    return view('sorokodin');
-});
+Route::get('/sorokodin', action: 'ApiController@sorokodinAction');
 
-Route::get('/sorokdva', function () {
-    return view('sorokdva');
-});
+Route::get('/sorokdva', action:'ApiController@sorokdvaAction');
 
-Route::get('/soroktri', function () {
-    return view('soroktri');
-});
+Route::get('/soroktri', action:'ApiController@soroktriAction');
 
-Route::get('/sorokchetire', function () {
-    return view('sorokchetire');
-});
+Route::get('/sorokchetire', action:'ApiController@sorokchetireAction');
 
-Route::get('/sorokpyat', function () {
-    return view('sorokpyat');
-});
+Route::get('/sorokpyat', action:'ApiController@sorokpyatAction';

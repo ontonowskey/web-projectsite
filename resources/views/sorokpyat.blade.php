@@ -9,7 +9,7 @@
 
 <header>
     <ul>
-        <li><a href="/">Главная</a></li>
+        <li><a href="/index">Главная</a></li>
         <li><a href="/sorokodin">1941</a></li>
         <li><a href="/sorokdva">1942</a></li>
         <li><a href="/soroktri">1943</a></li>
