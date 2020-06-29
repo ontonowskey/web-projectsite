@@ -1,22 +1,11 @@
-<!DOCTYPE html>
-<html lang="ru-RU">
-<head>
-    <meta charset="UTF-8">
-    <title>Война. 1942 год.</title>
-    <link rel="stylesheet" type="text/css" href="1942.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext">
-</head>
-<header>
-    <ul>
-        <li><a href="/index">Главная</a></li>
-        <li><a href="/sorokodin">1941</a></li>
-        <li><a href="#">1942</a></li>
-        <li><a href="/soroktri">1943</a></li>
-        <li><a href="/sorokchetire">1944</a></li>
-        <li><a href="/sorokpyat">1945</a></li>
-    </ul>
-</header>
-<body>
+@extends('layouts.header3')
+
+@section('Война. 1942 год.')
+@endsection
+
+@section('content1')
+
+
 <div class="container">
     <h1>1942</h1>
 </div>
@@ -44,11 +33,10 @@
     Страна оказалась в тяжелом положении, а выправлять ситуацию пришлось простым солдатам.<br>
     28 июля 1942 г. был отдан приказ Верховного Главнокомандующего №227: «Ни шагу назад!» Вводились жестокие наказания за отступление без приказа свыше. Позади войск стали располагать заградительные части НКВД.
 </div>
+<div class="kartinkiblaaa">
 <img src="images/1942-2.jpg" class="img3">
 <img src="images/moscow.jpg" class="img4">
 <img src="images/1942-3.jpg" class="img5">
-<footer>
-    <a href="https://vk.com/ontonowskey">©Антонов, "ИАТ", ПКС-18-1</a>
-</footer>
-</body>
-</html>
+</div>
+
+@endsection

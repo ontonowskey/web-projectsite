@@ -1,37 +1,8 @@
-<!DOCTYPE html>
-<html lang="ru-RU">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="1941.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext">
-    <title>Война. 1941 год.</title>
-</head>
+@extends('layouts.header2')
 
-<header>
-    <!--
-    <ul>
-        <li><a href="main.html">Главная</a></li>
-        <li><a href="1941.html">1941</a></li>
-        <li><a href="1942.html">1942</a></li>
-        <li><a href="1943.html">1943</a></li>
-        <li><a href="1944.html">1944</a></li>
-        <li><a href="1945.html">1945</a></li>
-    </ul>
-    -->
-    <div class="header">
-        <ul>
-            <div class="header1"><li><a href="/index">Главная</a></li></div>
-            <div class="header2"><li><a href="#">1941</a></li></div>
-            <div class="header3"><li><a href="/sorokdva">1942</a></li></div>
-            <div class="header4"><li><a href="/soroktri">1943</a></li></div>
-            <div class="header5"><li><a href="/sorokchetire">1944</a></li></div>
-            <div class="header6"><li><a href="/sorokpyat">1945</a></li></div>
-        </ul>
-    </div>
 
-</header>
+@section('sorokodin')
 
-<body>
 <div class="site">
     <div class="container">
         <h1>1941</h1>
@@ -74,11 +45,5 @@
         <img src="images/oborona.jpg" class=img1><img src="images/oborona1.jpg" class=img2><img src="images/voyna.jpg" class=img3>
     </div>
 </div>
-<footer>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <a href="https://vk.com/ontonowskey">©Антонов, "ИАТ", ПКС-18-1</a>
-</footer>
-</body>
 
-</html>
-
+@endsection

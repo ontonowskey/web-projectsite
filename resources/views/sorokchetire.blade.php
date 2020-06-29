@@ -1,24 +1,10 @@
-<!DOCTYPE html>
-<html lang="ru-RU">
-<head>
-    <meta charset="UTF-8">
-    <title>Война. 1944 год.</title>
-    <link rel="stylesheet" type="text/css" href="1942.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext">
-</head>
+@extends('layouts.header5')
 
-<header>
-    <ul>
-        <li><a href="/index">Главная</a></li>
-        <li><a href="/sorokodin">1941</a></li>
-        <li><a href="/sorokdva">1942</a></li>
-        <li><a href="/soroktri">1943</a></li>
-        <li><a href="#">1944</a></li>
-        <li><a href="/sorokpyat">1945</a></li>
-    </ul>
-</header>
+@section('Война. 1944 год.')
+@endsection
 
-<body>
+@section('content3')
+
 <div class="container">
     <h1>1944</h1>
 </div>
@@ -38,9 +24,4 @@
 
 </div>
 
-<footer>
-    <a href="https://vk.com/ontonowskey">©Антонов, "ИАТ", ПКС-18-1</a>
-</footer>
-
-</body>
-</html>
+@endsection

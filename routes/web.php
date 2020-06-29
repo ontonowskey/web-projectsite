@@ -13,14 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/index', action: "ApiController@indexAction");
+Route::get('/index', 'ApiController@indexAction');
 
-Route::get('/sorokodin', action: 'ApiController@sorokodinAction');
+Route::get('/sorokodin', 'ApiController@sorokodinAction');
 
-Route::get('/sorokdva', action:'ApiController@sorokdvaAction');
+Route::get('/sorokdva', 'ApiController@sorokdvaAction');
 
-Route::get('/soroktri', action:'ApiController@soroktriAction');
+Route::get('/soroktri', 'ApiController@soroktriAction');
 
-Route::get('/sorokchetire', action:'ApiController@sorokchetireAction');
+Route::get('/sorokchetire', 'ApiController@sorokchetireAction');
 
-Route::get('/sorokpyat', action:'ApiController@sorokpyatAction';
+Route::get('/sorokpyat', 'ApiController@sorokpyatAction');
