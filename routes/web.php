@@ -26,3 +26,9 @@ Route::get('/sorokchetire', 'ApiController@sorokchetireAction');
 Route::get('/sorokpyat', 'ApiController@sorokpyatAction');
 
 Route::get('/getArticles', 'ApiController@getArticles');
+
+Route::get('/auth', 'AuthController@auth');
+
+Route::middleware('auth')->group(function() {
+    Route::get('/logout', 'AuthController@logout');
+});

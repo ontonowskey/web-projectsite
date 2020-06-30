@@ -64,5 +64,10 @@ footer {
 a {
     display: block;
     padding: 8px;
-    background-color: #7F8384;
+    background-color: ;
+}
+
+.sidebar {
+    display: block;
+    background-color: darksalmon;
 }
