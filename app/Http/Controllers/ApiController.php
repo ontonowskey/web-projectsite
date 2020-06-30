@@ -33,4 +33,10 @@ class ApiController extends Controller
         {
             return view('sorokpyat');
         }
+
+    public function getArticles(Request $request)
+        {
+            return (new ArticleController())->show();
+        }
+
 }

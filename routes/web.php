@@ -24,3 +24,5 @@ Route::get('/soroktri', 'ApiController@soroktriAction');
 Route::get('/sorokchetire', 'ApiController@sorokchetireAction');
 
 Route::get('/sorokpyat', 'ApiController@sorokpyatAction');
+
+Route::get('/getArticles', 'ApiController@getArticles');

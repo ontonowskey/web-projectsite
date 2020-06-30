@@ -85,7 +85,7 @@ position: static;
 }
 
 .png {
-	left: 100px;
+	left: 200px;
 	margin-top: 200px;
 	width: 580px;
 	height: 400px;
@@ -98,13 +98,13 @@ position: static;
 	margin-bottom: 195px;
 	position: absolute;
 	z-index: 1;
-	left: 100px;
+	left: 200px;
 }
 
 .png3 {
 	width: 450px;
 	height: 450px;
-	left: 800px;
+	left: 1100px;
 	position: absolute;
 	z-index: 1;
 }
@@ -112,7 +112,7 @@ position: static;
 .png4 {
 	position: absolute;
 	z-index: 1;
-	left: 800px;
+	left: 1100px;
 	top: 1255px;
 }
 
